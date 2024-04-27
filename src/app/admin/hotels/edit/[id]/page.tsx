@@ -1,5 +1,4 @@
 import PageTitle from "@/components/page-title";
-import React from "react";
 import HotelForm from "../../_common/hotel-form";
 import HotelModel from "@/models/hotel-model";
 

@@ -1,4 +1,5 @@
 "use client";
+
 import { BookingType } from "@/interfaces";
 import { Table } from "antd";
 import dayjs from "dayjs";

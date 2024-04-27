@@ -1,5 +1,4 @@
 import BookingModel from "@/models/booking-model";
-import React from "react";
 import AdminBookingsTable from "../../_common/admin-bookings-table";
 import dayjs from "dayjs";
 

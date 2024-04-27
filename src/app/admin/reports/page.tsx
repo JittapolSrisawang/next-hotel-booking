@@ -1,8 +1,8 @@
 import PageTitle from "@/components/page-title";
-import React, { Suspense } from "react";
+import { Suspense } from "react";
 import ReportsFilters from "./_common/reports-filters";
 import ReportsData from "./_common/reports-data";
-import Spinner from "@/components/Spinner";
+import Spinner from "@/components/spinner";
 
 
 function ReportsPage({ searchParams }: { searchParams: any }) {
