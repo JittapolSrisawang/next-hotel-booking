@@ -3,3 +3,6 @@
 - Tailwind CSS
 - Ant Design
 - MongoDB
+- Clerk
+- Firebase
+- Stripe
