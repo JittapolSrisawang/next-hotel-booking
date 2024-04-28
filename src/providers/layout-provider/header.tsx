@@ -8,14 +8,14 @@ function Header({ loggedInUserData }: { loggedInUserData: UserType | null }) {
     return (
       <div className="flex justify-between items-center">
         <ProjectTitle />
-        <Button type="link">Sign In</Button>
+        <Button type="link">ลงชื่อเข้าใช้</Button>
       </div>
     );
   }
 
   return (
     <div className="lg:px-20">
-      <div className="flex justify-between items-center border border-t-0 border-solid">
+      <div className="flex justify-between items-center bg-black text-white">
         <ProjectTitle />
         <UserInfo loggedInUserData={loggedInUserData} />
       </div>

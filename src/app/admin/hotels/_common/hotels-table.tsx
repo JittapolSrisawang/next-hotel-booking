@@ -2,7 +2,7 @@
 
 import { HotelType } from "@/interfaces";
 import { Table, message } from "antd";
-import { Edit, PlusSquare, Trash2 } from "lucide-react";
+import { Edit, Trash2 } from "lucide-react";
 import dayjs from "dayjs";
 import { useRouter } from "next/navigation";
 import { DeleteHotel } from "@/server-actions/hotels";
@@ -77,14 +77,13 @@ function HotelsTable({ hotels }: { hotels: HotelType[] }) {
             className="cursor-pointer text-yellow-700"
             onClick={() => router.push(`/admin/hotels/edit/${record._id}`)}
           />
-          <PlusSquare size={18} className="cursor-pointer text-green-700" />
         </div>
       ),
     },
   ];
   return (
     <div>
-       <Table loading={loading} dataSource={hotels} columns={columns} />
+      <Table loading={loading} dataSource={hotels} columns={columns} />
     </div>
   );
 }

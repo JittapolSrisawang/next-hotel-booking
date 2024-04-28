@@ -12,7 +12,7 @@ async function AdminBookingsPage() {
     const bookings = JSON.parse(JSON.stringify(bookingsResponse));
   return (
     <div>
-      <PageTitle title="Bookings" />
+      <PageTitle title="รายการจองที่พัก" />
       <AdminBookingsTable bookings={bookings} />
     </div>
   );
